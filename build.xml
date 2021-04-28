@@ -1,0 +1,14 @@
+<project name="JsonFormatter" default="build">
+  <description>
+    This is an ant build.xml file for building the JsonFormatter plugin for jEdit.
+  </description>
+
+  <!-- One of these two property files below should define build.support to point to 
+       a checkout of the build-support project:
+       svn checkout https://svn.code.sf.net/p/jedit/svn/build-support/trunk/ build-support
+  -->
+  <property file="build.properties"/>
+  <property file="../build.properties"/>
+  <property name="src.dir" value="src/" />
+  <import file="${build.support}/plugin-build.xml" />
+</project>

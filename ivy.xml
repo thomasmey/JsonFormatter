@@ -1,0 +1,7 @@
+<ivy-module version="2.0">
+	<info organisation="de.m3y3r" module="jsonformatter"/>
+	<dependencies>
+		<dependency org="jakarta.json" name="jakarta.json-api" rev="2.0.0"/>
+		<dependency org="org.glassfish" name="jakarta.json" rev="2.0.0"/>
+	</dependencies>
+</ivy-module>

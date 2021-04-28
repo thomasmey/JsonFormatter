@@ -1,0 +1,13 @@
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.activate=defer
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.name=JsonFormatter
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.version=0.1.0
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.jars=jakarta.json.jar jakarta.json-api.jar
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.description=Utility to pretty print JSON
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.author=Thomas Meyer
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.usePluginHome=false
+
+# application menu items
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.menu.label=JsonFormatter
+plugin.de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.menu=jsonformatter.format-json
+
+jsonformatter.format-json.label=Pretty Print

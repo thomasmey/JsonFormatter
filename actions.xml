@@ -1,0 +1,7 @@
+<ACTIONS>
+  <ACTION NAME="jsonformatter.format-json">
+    <CODE>
+      de.m3y3r.jedit.plugin.jsonformatter.JsonFormatterPlugin.getInstance().formatJson(textArea);
+    </CODE>
+  </ACTION>
+</ACTIONS>
